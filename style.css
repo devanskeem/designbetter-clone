@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:400,800');
+body{
+    background: #E0E7FA;
+    margin: 0;
+}
+#owl{
+    height: 45px;
+    width: 50px;
+    display: flex;
+    align-items: flex-start;
+    margin: 30px 5px 0px 30px;
+}
+.header{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 140px;
+    font-family: 'Muli';
+    background: white;
+    margin: 20px 20px 0px 20px;
+}
+.list {
+    margin: 30px 100px 60px 100px;
+    font-size: 12px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.list > ul{
+    margin:15px;
+}
+.header-right{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: 0px 25px 60px 25px;
+}
+#subscribe-button {
+    background: #0727CC;
+    height: 40px;
+    width: 115px;
+    color: white;
+    border-radius: 28px;
+    margin-top: 30px;
+}
+
+#inButton{
+    height: 40px;
+    width: 70px;
+    margin: 30px;
+}
+.logo-text{
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 35px -5px 80px -5px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0px;
+}
+
+#db{
+    font-size: 23px;
+}
+#byIV{
+    font-size: 12px;
+}
+
+.content{
+    display:flex;
+    align-items: flex-start;
+    height: 5000px;
+    margin: 0px 20px;
+    background: white;
+}
+.dmr{
+    height: 815px;
+    width: 100%;
+    margin-left: 65px;
+    background: #E0E7FA;
+
+}
+.dmr-text{
+    margin-top: 10%;
+    margin-left: 15%;
+    width: 600px;
+
+}
+.dmr-text > h1{
+    font-family: MaisonNeue,-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif;
+    font-size: 70px;
+    font-weight: 500;
+    margin-bottom: 3px;
+}   
+
+.dmr-text > h3{
+    font-size: 18px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 100;
+    margin-bottom: 25px;
+}
+
+.dmr-text > button{
+    height: 55px;
+    width: 190px;
+    font-size: 12px;
+    font-weight: 600;
+    background: #f80051;
+    border-radius: 29px;
+    color: white;
+
+}
